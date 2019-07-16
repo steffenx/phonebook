@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook β1.0", "PhoneBook β1.0\PhoneBook β1.0.csproj", "{73EE560A-5EEC-446F-B8B4-167B7166D48A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|ARM.Build.0 = Debug|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x64.ActiveCfg = Debug|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x64.Build.0 = Debug|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x64.Deploy.0 = Debug|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x86.ActiveCfg = Debug|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x86.Build.0 = Debug|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Debug|x86.Deploy.0 = Debug|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|Any CPU.ActiveCfg = Release|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|ARM.ActiveCfg = Release|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|ARM.Build.0 = Release|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|ARM.Deploy.0 = Release|ARM
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x64.ActiveCfg = Release|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x64.Build.0 = Release|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x64.Deploy.0 = Release|x64
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x86.ActiveCfg = Release|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x86.Build.0 = Release|x86
+		{73EE560A-5EEC-446F-B8B4-167B7166D48A}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9466DEFE-B28B-45D9-8475-A30997B0E1B9}
+	EndGlobalSection
+EndGlobal
