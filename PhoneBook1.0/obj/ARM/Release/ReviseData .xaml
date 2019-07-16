@@ -1,0 +1,114 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="PhoneBook_β1._0.ReviseData"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PhoneBook_β1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:PhoneBook_β1._0"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <!--<AdaptiveTrigger MinWindowWidth="850"></AdaptiveTrigger>-->
+                        <AdaptiveTrigger MinWindowHeight="700"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <!--<AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>-->
+                        <AdaptiveTrigger MinWindowHeight="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="textblock.Margin" Value="0"></Setter>
+                        <Setter Target="ellipseWithImageBrush.Width" Value="50"></Setter>
+                        <Setter Target="ellipseWithImageBrush.Height" Value="50"></Setter>
+                        <Setter Target="txtAddName.Margin" Value="0"></Setter>
+                        <Setter Target="txtAddnum.Margin" Value="0"></Setter>
+                        <Setter Target="txtAddbir.Margin" Value="0"></Setter>
+                        <Setter Target="txtAddcity.Margin" Value="0"></Setter>
+                        <Setter Target="txtAddmail.Margin" Value="0"></Setter>
+                        <Setter Target="updatebutton.Height" Value="40"></Setter>
+                        <Setter Target="updatebutton.FontSize" Value="18"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ListView x:ConnectionId='2' Name="listview1"                                     IsItemClickEnabled="True"                                         >
+            <ListView.ItemTemplate>
+                <DataTemplate                           >
+                    <StackPanel x:ConnectionId='13'  Orientation="Horizontal" Margin="15,10,0,10">
+
+                        <Ellipse  Width="50" Height="50">
+                            <Ellipse.Fill>
+                                <ImageBrush x:ConnectionId='15'                             />
+                            </Ellipse.Fill>
+                        </Ellipse>
+
+                        <TextBlock x:ConnectionId='14' FontSize="16"                      VerticalAlignment="Center" Margin="10,0,15,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid Grid.Column="1" Grid.Row="0" Margin="20">
+
+            <StackPanel x:ConnectionId='3' AllowDrop="True"                                                        Margin="15">
+
+                <TextBlock Text="修改PhoneBook联系人" HorizontalAlignment="Center" FontSize="20"></TextBlock>
+                <TextBlock x:ConnectionId='4' Name="textblock" Text="拖拽图片进入APP修改头像"  FontSize="16" Margin="5"></TextBlock>
+                <Ellipse x:ConnectionId='5' Name="ellipseWithImageBrush" Width="100" Height="100">
+                    <Ellipse.Fill >
+                        <ImageBrush></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <TextBox x:ConnectionId='6' Header="姓名"
+                     Margin="5"
+                     x:Name="txtAddName"/>
+                <TextBox x:ConnectionId='7' Header="电话"
+                     Margin="5"
+                     x:Name="txtAddnum"></TextBox>
+                <TextBox x:ConnectionId='8' Header="生日"
+                     Margin="5"
+                     x:Name="txtAddbir"></TextBox>
+                <TextBox x:ConnectionId='9' Header="地址"
+                     Margin="5"
+                     x:Name="txtAddcity"></TextBox>
+                <TextBox x:ConnectionId='10' Header="邮件"
+                     Margin="5"
+                     x:Name="txtAddmail"></TextBox>
+
+                <TextBox x:ConnectionId='11' Name="AddImage" Opacity="0"></TextBox>
+
+                <Button x:ConnectionId='12' Content="修改联系人"
+                    HorizontalAlignment="Center"
+                    Margin="5"
+                    Name="updatebutton"
+                                               Opacity="0.8" Background="#332C5CE2" Width="170" Height="54" FontSize="22"></Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="8d66cb04-638e-4304-bd28-642bad6d4d06" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="AddFace.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/AddFace.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DeleteData.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/DeleteData.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainFace.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/MainFace.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NavigationFace.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/NavigationFace.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewUser.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/NewUser.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PhoneBook β1.0.xr.xml" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/PhoneBook β1.0.xr.xml">
+				<Candidate type="Path">
+					<Value>PhoneBook β1.0.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="QCellCore .xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/QCellCore .xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ReviseData .xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/ReviseData .xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WeatherHeFeng.xbf" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/WeatherHeFeng.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="bandage.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/bandage.png">
+					<Candidate type="Path">
+						<Value>Assets\bandage.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="delete1.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/delete1.png">
+					<Candidate type="Path">
+						<Value>Assets\delete1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="denglu.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/denglu.jpg">
+					<Candidate type="Path">
+						<Value>Assets\denglu.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="denglu2.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/denglu2.jpg">
+					<Candidate type="Path">
+						<Value>Assets\denglu2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="denglu3.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/denglu3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\denglu3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="earth-globe.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/earth-globe.png">
+					<Candidate type="Path">
+						<Value>Assets\earth-globe.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="emo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/emo.png">
+					<Candidate type="Path">
+						<Value>Assets\emo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fengmian.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/fengmian.jpg">
+					<Candidate type="Path">
+						<Value>Assets\fengmian.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="iphone-5c-blue.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/iphone-5c-blue.png">
+					<Candidate type="Path">
+						<Value>Assets\iphone-5c-blue.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pikaqiu.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/pikaqiu.png">
+					<Candidate type="Path">
+						<Value>Assets\pikaqiu.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="weather (2).jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/weather (2).jpg">
+					<Candidate type="Path">
+						<Value>Assets\weather (2).jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="weather.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/weather.jpg">
+					<Candidate type="Path">
+						<Value>Assets\weather.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="weather.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/weather.png">
+					<Candidate type="Path">
+						<Value>Assets\weather.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="下雨.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/下雨.jpg">
+					<Candidate type="Path">
+						<Value>Assets\下雨.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="下雪.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/下雪.jpg">
+					<Candidate type="Path">
+						<Value>Assets\下雪.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="修改.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/修改.png">
+					<Candidate type="Path">
+						<Value>Assets\修改.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="其他.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/其他.jpg">
+					<Candidate type="Path">
+						<Value>Assets\其他.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="图层.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/图层.png">
+					<Candidate type="Path">
+						<Value>Assets\图层.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="图层2.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/图层2.png">
+					<Candidate type="Path">
+						<Value>Assets\图层2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="多云.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/多云.jpg">
+					<Candidate type="Path">
+						<Value>Assets\多云.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="定位.gif" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/定位.gif">
+					<Candidate type="Path">
+						<Value>Assets\定位.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="导航.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/导航.png">
+					<Candidate type="Path">
+						<Value>Assets\导航.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="封面.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/封面.jpg">
+					<Candidate type="Path">
+						<Value>Assets\封面.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="晴.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/晴.jpg">
+					<Candidate type="Path">
+						<Value>Assets\晴.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="晴间多云.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/晴间多云.jpg">
+					<Candidate type="Path">
+						<Value>Assets\晴间多云.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="添加.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/添加.jpg">
+					<Candidate type="Path">
+						<Value>Assets\添加.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="添加1.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/添加1.jpg">
+					<Candidate type="Path">
+						<Value>Assets\添加1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="登陆.jpg" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/登陆.jpg">
+					<Candidate type="Path">
+						<Value>Assets\登陆.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="HF_Weather">
+					<NamedResource name="100.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/100.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\100.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="101.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/101.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\101.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="102.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/102.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\102.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="103.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/103.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\103.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="104.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/104.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\104.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="200.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/200.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\200.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="201.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/201.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\201.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="202.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/202.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\202.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="203.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/203.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\203.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="204.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/204.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\204.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="205.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/205.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\205.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="206.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/206.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\206.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="207.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/207.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\207.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="208.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/208.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\208.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="209.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/209.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\209.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="210.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/210.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\210.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="211.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/211.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\211.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="212.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/212.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\212.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="300.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/300.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\300.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="301.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/301.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\301.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="302.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/302.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\302.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="303.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/303.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\303.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="304.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/304.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\304.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="305.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/305.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\305.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="306.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/306.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\306.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="307.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/307.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\307.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="308.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/308.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\308.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="309.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/309.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\309.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="310.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/310.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\310.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="311.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/311.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\311.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="312.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/312.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\312.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="313.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/313.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\313.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="400.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/400.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\400.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="401.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/401.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\401.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="402.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/402.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\402.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="403.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/403.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\403.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="404.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/404.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\404.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="405.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/405.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\405.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="406.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/406.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\406.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="407.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/407.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\407.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="500.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/500.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\500.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="501.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/501.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\501.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="502.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/502.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\502.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="503.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/503.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\503.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="504.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/504.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\504.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="507.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/507.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\507.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="508.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/508.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\508.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="900.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/900.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\900.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="901.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/901.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\901.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="999.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/HF_Weather/999.png">
+						<Candidate type="Path">
+							<Value>Assets\HF_Weather\999.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="tick_weather">
+					<NamedResource name="00.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/00.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\00.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="01.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/01.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\01.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/02.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\02.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/03.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\03.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/04.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\04.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="06.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/06.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\06.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="07.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/07.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\07.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="08.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/08.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\08.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/09.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\09.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/10.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\10.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/13.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\13.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="14.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/14.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\14.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="15.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/15.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\15.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="16.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/16.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\16.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="18.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/18.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\18.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="20.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/20.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\20.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy1.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy1.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy1_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy1_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy1_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy2_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy2_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy2_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy3.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy3.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy3.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy3_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy3_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy3_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy4.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy4.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy4.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy4_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy4_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy4_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="cloudy5.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/cloudy5.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\cloudy5.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fog_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/fog_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\fog_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="hail.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/hail.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\hail.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="mist.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/mist.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\mist.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="mist_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/mist_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\mist_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="shower1_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/shower1_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\shower1_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="shower2.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/shower2.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\shower2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="shower2_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/shower2_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\shower2_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="snow1_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/snow1_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\snow1_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="snow2_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/snow2_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\snow2_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="snow3.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/snow3.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\snow3.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="snow3_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/snow3_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\snow3_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="sunny_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/sunny_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\sunny_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tstorm1_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/tstorm1_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\tstorm1_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tstorm2.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/tstorm2.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\tstorm2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tstorm2_night.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/tstorm2_night.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\tstorm2_night.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="tstorm3.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Assets/tick_weather/tstorm3.png">
+						<Candidate type="Path">
+							<Value>Assets\tick_weather\tstorm3.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Javascript">
+				<NamedResource name="ball.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/ball.png">
+					<Candidate type="Path">
+						<Value>Javascript\ball.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="datouwang.css" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/datouwang.css">
+					<Candidate type="Path">
+						<Value>Javascript\datouwang.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="datouwang.js" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/datouwang.js">
+					<Candidate type="Path">
+						<Value>Javascript\datouwang.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="head.png" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/head.png">
+					<Candidate type="Path">
+						<Value>Javascript\head.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery-1.8.3.min.js" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/jquery-1.8.3.min.js">
+					<Candidate type="Path">
+						<Value>Javascript\jquery-1.8.3.min.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MouseMove.html" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Javascript/MouseMove.html">
+					<Candidate type="Path">
+						<Value>Javascript\MouseMove.html</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://8d66cb04-638e-4304-bd28-642bad6d4d06/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

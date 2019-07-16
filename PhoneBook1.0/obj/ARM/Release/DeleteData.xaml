@@ -1,0 +1,60 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="PhoneBook_β1._0.DeleteData"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PhoneBook_β1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:PhoneBook_β1._0"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+
+        <GridView x:ConnectionId='2' Name="Dgridview"                                     Margin="10" IsItemClickEnabled="True" SelectedItem="gridselect"                                >
+            <GridView.ItemTemplate>
+                <DataTemplate                           >
+                    <StackPanel x:ConnectionId='7' Margin="15">
+                        <Image x:ConnectionId='8' Width="140" Height="160"                        ></Image>
+                        <TextBlock x:ConnectionId='9' HorizontalAlignment="Center" FontSize="16"                     ></TextBlock>
+                        <TextBlock x:ConnectionId='10' HorizontalAlignment="Center" FontSize="14"                            ></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+        <StackPanel Grid.Column="1" BorderBrush="#EEEEEE" Margin="20" VerticalAlignment="Center">
+            <Grid BorderThickness="0,0,0,1" BorderBrush="#EEEEEE"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center">生日</TextBlock>
+                <TextBlock x:ConnectionId='6' Grid.Column="1" VerticalAlignment="Center" Name="bir"></TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="4" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center">地区</TextBlock>
+                <TextBlock x:ConnectionId='5' Grid.Column="1" VerticalAlignment="Center" Name="city1"></TextBlock>
+            </Grid>
+
+            <Grid BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center">邮件</TextBlock>
+                <TextBlock x:ConnectionId='4' Grid.Column="1" VerticalAlignment="Center" Name="mail"></TextBlock>
+            </Grid>
+            <Button x:ConnectionId='3' x:Name="deletebutton" Width="100" Height="35" HorizontalAlignment="Center" Content="删除联系人" Opacity="0.7" Background="#334160E4" FontSize="16"                           />
+        </StackPanel>
+    </Grid>
+</Page>
+

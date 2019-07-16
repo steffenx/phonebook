@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-GQTKS3HN</Machine>
+    <WindowsUser>Steffen_xuan</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>8d66cb04-638e-4304-bd28-642bad6d4d06</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Steffen_xuan</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\大三\phonebook\PhoneBook β1.0\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F25C50AB019D42B3290B944C73DFE6B8AFDE7C9B5E3BC3ED2E931E9AEDDD263A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8d66cb04-638e-4304-bd28-642bad6d4d08_1.0.7.0_x86__jyvssa1e470ga</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8d66cb04-638e-4304-bd28-642bad6d4d08_jyvssa1e470ga!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8d66cb04-638e-4304-bd28-642bad6d4d08</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Steffen_xuan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.7.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:51:04.212</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\PhoneBook β1.0.exe">
+      <PackagePath>entrypoint\PhoneBook β1.0.exe</PackagePath>
+      <Modified>2018-12-13T12:51:02.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-06-11T15:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-07-01T10:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-06-11T15:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-06-11T15:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-06-11T15:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-06-11T15:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-06-11T15:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-06-11T15:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-06-11T15:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-06-11T15:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:14:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-06-11T15:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-06-11T15:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-06-11T15:14:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-06-11T15:14:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-06-11T15:14:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-06-11T15:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-06-11T15:14:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-06-11T15:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-06-11T15:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-06-11T15:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T10:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T13:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-07-01T07:48:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\sqlite.net-pcl\3.1.1\lib\Windows8\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-06T09:18:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\sqlite.net.core-pcl\3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-11-06T09:18:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-06-11T15:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2016-06-11T15:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-06-11T15:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-06-11T15:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-06-11T15:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-06-11T15:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-06-11T15:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-06-11T15:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-06-11T15:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-06-11T15:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-06-11T15:13:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2016-06-11T15:13:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-07-01T07:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-06-11T15:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T15:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-07-01T07:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-06-11T15:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:13:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-06-11T15:13:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-06-11T15:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-06-11T15:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-06-11T15:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T15:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-06-11T15:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-06-11T15:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-06-11T15:13:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2016-06-11T15:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-06-11T15:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-06-11T15:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-06-11T15:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2016-06-11T15:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.net.websockets.client\4.0.0\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2016-06-11T15:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-06-11T15:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T15:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-06-11T15:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2017-02-09T05:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.private.servicemodel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2016-06-13T13:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-06-11T15:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-06-11T15:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-06-11T15:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-06-11T15:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-06-11T15:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-06-11T15:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T15:14:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-06-11T15:14:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2017-02-09T05:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2017-02-09T05:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T15:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-06-11T15:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-06-11T15:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2016-06-11T15:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2016-06-11T15:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2016-06-11T15:14:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T15:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2016-06-11T15:14:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-06-11T15:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.servicemodel.duplex\4.0.1\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2016-06-13T13:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.servicemodel.http\4.1.0\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2016-06-13T13:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.servicemodel.nettcp\4.1.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2016-06-13T13:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.servicemodel.primitives\4.1.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2016-06-13T13:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.servicemodel.security\4.0.1\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2016-06-13T13:51:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-06-11T15:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-06-11T15:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-06-11T15:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-06-11T15:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T15:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T15:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-06-11T15:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-06-11T15:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-06-11T15:15:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-06-11T15:15:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Steffen_xuan\.nuget\packages\xamlanimatedgif\1.1.10\lib\portable-win81+wpa81\XamlAnimatedGif.dll">
+      <PackagePath>XamlAnimatedGif.dll</PackagePath>
+      <Modified>2017-06-27T00:32:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.26.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2018-12-10T06:18:40.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\bandage.png">
+      <PackagePath>Assets\bandage.png</PackagePath>
+      <Modified>2017-11-07T02:30:42.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\delete1.png">
+      <PackagePath>Assets\delete1.png</PackagePath>
+      <Modified>2017-11-04T15:38:49.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\earth-globe.png">
+      <PackagePath>Assets\earth-globe.png</PackagePath>
+      <Modified>2017-11-07T02:33:33.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\emo.png">
+      <PackagePath>Assets\emo.png</PackagePath>
+      <Modified>2017-10-23T13:34:39.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\100.png">
+      <PackagePath>Assets\HF_Weather\100.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\101.png">
+      <PackagePath>Assets\HF_Weather\101.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\102.png">
+      <PackagePath>Assets\HF_Weather\102.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\103.png">
+      <PackagePath>Assets\HF_Weather\103.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\104.png">
+      <PackagePath>Assets\HF_Weather\104.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\200.png">
+      <PackagePath>Assets\HF_Weather\200.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\201.png">
+      <PackagePath>Assets\HF_Weather\201.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\202.png">
+      <PackagePath>Assets\HF_Weather\202.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\203.png">
+      <PackagePath>Assets\HF_Weather\203.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\204.png">
+      <PackagePath>Assets\HF_Weather\204.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\205.png">
+      <PackagePath>Assets\HF_Weather\205.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\206.png">
+      <PackagePath>Assets\HF_Weather\206.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\207.png">
+      <PackagePath>Assets\HF_Weather\207.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\208.png">
+      <PackagePath>Assets\HF_Weather\208.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\209.png">
+      <PackagePath>Assets\HF_Weather\209.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\210.png">
+      <PackagePath>Assets\HF_Weather\210.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\211.png">
+      <PackagePath>Assets\HF_Weather\211.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\212.png">
+      <PackagePath>Assets\HF_Weather\212.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\300.png">
+      <PackagePath>Assets\HF_Weather\300.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\301.png">
+      <PackagePath>Assets\HF_Weather\301.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\302.png">
+      <PackagePath>Assets\HF_Weather\302.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\303.png">
+      <PackagePath>Assets\HF_Weather\303.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\304.png">
+      <PackagePath>Assets\HF_Weather\304.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\305.png">
+      <PackagePath>Assets\HF_Weather\305.png</PackagePath>
+      <Modified>2017-11-10T02:18:08.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\306.png">
+      <PackagePath>Assets\HF_Weather\306.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\307.png">
+      <PackagePath>Assets\HF_Weather\307.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\308.png">
+      <PackagePath>Assets\HF_Weather\308.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\309.png">
+      <PackagePath>Assets\HF_Weather\309.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\310.png">
+      <PackagePath>Assets\HF_Weather\310.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\311.png">
+      <PackagePath>Assets\HF_Weather\311.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\312.png">
+      <PackagePath>Assets\HF_Weather\312.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\313.png">
+      <PackagePath>Assets\HF_Weather\313.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\400.png">
+      <PackagePath>Assets\HF_Weather\400.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\401.png">
+      <PackagePath>Assets\HF_Weather\401.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\402.png">
+      <PackagePath>Assets\HF_Weather\402.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\403.png">
+      <PackagePath>Assets\HF_Weather\403.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\404.png">
+      <PackagePath>Assets\HF_Weather\404.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\405.png">
+      <PackagePath>Assets\HF_Weather\405.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\406.png">
+      <PackagePath>Assets\HF_Weather\406.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\407.png">
+      <PackagePath>Assets\HF_Weather\407.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\500.png">
+      <PackagePath>Assets\HF_Weather\500.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\501.png">
+      <PackagePath>Assets\HF_Weather\501.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\502.png">
+      <PackagePath>Assets\HF_Weather\502.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\503.png">
+      <PackagePath>Assets\HF_Weather\503.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\504.png">
+      <PackagePath>Assets\HF_Weather\504.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\507.png">
+      <PackagePath>Assets\HF_Weather\507.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\508.png">
+      <PackagePath>Assets\HF_Weather\508.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\900.png">
+      <PackagePath>Assets\HF_Weather\900.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\901.png">
+      <PackagePath>Assets\HF_Weather\901.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\HF_Weather\999.png">
+      <PackagePath>Assets\HF_Weather\999.png</PackagePath>
+      <Modified>2017-11-09T14:43:45.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\iphone-5c-blue.png">
+      <PackagePath>Assets\iphone-5c-blue.png</PackagePath>
+      <Modified>2017-11-09T06:38:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\pikaqiu.png">
+      <PackagePath>Assets\pikaqiu.png</PackagePath>
+      <Modified>2017-10-23T13:34:34.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:21:16.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:42:54.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:40:58.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\00.png">
+      <PackagePath>Assets\tick_weather\00.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\01.png">
+      <PackagePath>Assets\tick_weather\01.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\02.png">
+      <PackagePath>Assets\tick_weather\02.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\03.png">
+      <PackagePath>Assets\tick_weather\03.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\04.png">
+      <PackagePath>Assets\tick_weather\04.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\06.png">
+      <PackagePath>Assets\tick_weather\06.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\07.png">
+      <PackagePath>Assets\tick_weather\07.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\08.png">
+      <PackagePath>Assets\tick_weather\08.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\09.png">
+      <PackagePath>Assets\tick_weather\09.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\10.png">
+      <PackagePath>Assets\tick_weather\10.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\13.png">
+      <PackagePath>Assets\tick_weather\13.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\14.png">
+      <PackagePath>Assets\tick_weather\14.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\15.png">
+      <PackagePath>Assets\tick_weather\15.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\16.png">
+      <PackagePath>Assets\tick_weather\16.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\18.png">
+      <PackagePath>Assets\tick_weather\18.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\20.png">
+      <PackagePath>Assets\tick_weather\20.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy1.png">
+      <PackagePath>Assets\tick_weather\cloudy1.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy1_night.png">
+      <PackagePath>Assets\tick_weather\cloudy1_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy2_night.png">
+      <PackagePath>Assets\tick_weather\cloudy2_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy3.png">
+      <PackagePath>Assets\tick_weather\cloudy3.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy3_night.png">
+      <PackagePath>Assets\tick_weather\cloudy3_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy4.png">
+      <PackagePath>Assets\tick_weather\cloudy4.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy4_night.png">
+      <PackagePath>Assets\tick_weather\cloudy4_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\cloudy5.png">
+      <PackagePath>Assets\tick_weather\cloudy5.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\fog_night.png">
+      <PackagePath>Assets\tick_weather\fog_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\hail.png">
+      <PackagePath>Assets\tick_weather\hail.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\mist.png">
+      <PackagePath>Assets\tick_weather\mist.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\mist_night.png">
+      <PackagePath>Assets\tick_weather\mist_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\shower1_night.png">
+      <PackagePath>Assets\tick_weather\shower1_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\shower2.png">
+      <PackagePath>Assets\tick_weather\shower2.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\shower2_night.png">
+      <PackagePath>Assets\tick_weather\shower2_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\snow1_night.png">
+      <PackagePath>Assets\tick_weather\snow1_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\snow2_night.png">
+      <PackagePath>Assets\tick_weather\snow2_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\snow3.png">
+      <PackagePath>Assets\tick_weather\snow3.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\snow3_night.png">
+      <PackagePath>Assets\tick_weather\snow3_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\sunny_night.png">
+      <PackagePath>Assets\tick_weather\sunny_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\tstorm1_night.png">
+      <PackagePath>Assets\tick_weather\tstorm1_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\tstorm2.png">
+      <PackagePath>Assets\tick_weather\tstorm2.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\tstorm2_night.png">
+      <PackagePath>Assets\tick_weather\tstorm2_night.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\tick_weather\tstorm3.png">
+      <PackagePath>Assets\tick_weather\tstorm3.png</PackagePath>
+      <Modified>2017-11-07T03:26:56.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\weather.png">
+      <PackagePath>Assets\weather.png</PackagePath>
+      <Modified>2017-11-04T15:34:20.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\修改.png">
+      <PackagePath>Assets\修改.png</PackagePath>
+      <Modified>2017-11-04T15:30:55.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\图层.png">
+      <PackagePath>Assets\图层.png</PackagePath>
+      <Modified>2017-11-04T07:18:50.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\图层2.png">
+      <PackagePath>Assets\图层2.png</PackagePath>
+      <Modified>2017-11-04T07:53:18.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\导航.png">
+      <PackagePath>Assets\导航.png</PackagePath>
+      <Modified>2017-11-04T16:35:46.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\ball.png">
+      <PackagePath>Javascript\ball.png</PackagePath>
+      <Modified>2017-11-03T12:49:10.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\head.png">
+      <PackagePath>Javascript\head.png</PackagePath>
+      <Modified>2017-11-03T12:49:10.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-10-19T02:28:47.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:20:12.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-25T06:13:52.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-19T08:20:45.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-19T02:28:47.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-19T02:28:47.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-19T08:23:06.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\denglu.jpg">
+      <PackagePath>Assets\denglu.jpg</PackagePath>
+      <Modified>2018-12-13T11:58:14.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\denglu2.jpg">
+      <PackagePath>Assets\denglu2.jpg</PackagePath>
+      <Modified>2018-12-13T11:59:52.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\denglu3.jpg">
+      <PackagePath>Assets\denglu3.jpg</PackagePath>
+      <Modified>2018-12-13T12:00:20.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\fengmian.jpg">
+      <PackagePath>Assets\fengmian.jpg</PackagePath>
+      <Modified>2017-11-03T13:44:57.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\weather %282%29.jpg">
+      <PackagePath>Assets\weather %282%29.jpg</PackagePath>
+      <Modified>2017-11-12T12:44:32.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\weather.jpg">
+      <PackagePath>Assets\weather.jpg</PackagePath>
+      <Modified>2018-12-13T12:03:25.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\下雨.jpg">
+      <PackagePath>Assets\下雨.jpg</PackagePath>
+      <Modified>2017-11-12T12:50:49.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\下雪.jpg">
+      <PackagePath>Assets\下雪.jpg</PackagePath>
+      <Modified>2017-11-12T13:15:39.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\其他.jpg">
+      <PackagePath>Assets\其他.jpg</PackagePath>
+      <Modified>2017-11-12T13:11:10.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\多云.jpg">
+      <PackagePath>Assets\多云.jpg</PackagePath>
+      <Modified>2017-11-12T13:13:50.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\封面.jpg">
+      <PackagePath>Assets\封面.jpg</PackagePath>
+      <Modified>2017-11-02T01:12:14.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\晴.jpg">
+      <PackagePath>Assets\晴.jpg</PackagePath>
+      <Modified>2017-11-12T12:58:18.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\晴间多云.jpg">
+      <PackagePath>Assets\晴间多云.jpg</PackagePath>
+      <Modified>2017-11-12T12:27:32.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\添加.jpg">
+      <PackagePath>Assets\添加.jpg</PackagePath>
+      <Modified>2018-12-13T12:04:59.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\添加1.jpg">
+      <PackagePath>Assets\添加1.jpg</PackagePath>
+      <Modified>2018-12-13T12:02:22.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\登陆.jpg">
+      <PackagePath>Assets\登陆.jpg</PackagePath>
+      <Modified>2018-12-13T12:04:12.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Assets\定位.gif">
+      <PackagePath>Assets\定位.gif</PackagePath>
+      <Modified>2017-11-09T08:42:45.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\datouwang.css">
+      <PackagePath>Javascript\datouwang.css</PackagePath>
+      <Modified>2017-11-05T09:24:36.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\datouwang.js">
+      <PackagePath>Javascript\datouwang.js</PackagePath>
+      <Modified>2017-11-03T12:49:25.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\jquery-1.8.3.min.js">
+      <PackagePath>Javascript\jquery-1.8.3.min.js</PackagePath>
+      <Modified>2017-11-03T12:49:25.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Javascript\MouseMove.html">
+      <PackagePath>Javascript\MouseMove.html</PackagePath>
+      <Modified>2017-11-05T09:22:12.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-10-21T12:03:48.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\PhoneBook β1.0.xr.xml">
+      <PackagePath>PhoneBook β1.0.xr.xml</PackagePath>
+      <Modified>2017-11-12T14:02:15.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-01-25T06:47:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-13T12:51:03.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\Core\PhoneBook β1.0.exe">
+      <PackagePath>PhoneBook β1.0.exe</PackagePath>
+      <Modified>2018-12-13T12:51:04.203</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25830.2</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25830.2</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25830.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25830.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

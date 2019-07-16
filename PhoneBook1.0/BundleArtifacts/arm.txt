@@ -1,0 +1,2 @@
+MainPackage=C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\ARM\Release\PhoneBook β1.0_1.0.7.0_ARM.appx
+SymbolPackage=C:\Users\steffen.xuan\Desktop\PhoneBook β1.0_1.0.7.0_Test\PhoneBook β1.0_1.0.7.0_ARM.appxsym

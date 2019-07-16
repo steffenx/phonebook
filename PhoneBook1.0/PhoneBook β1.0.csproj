@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{73EE560A-5EEC-446F-B8B4-167B7166D48A}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoneBook_β1._0</RootNamespace>
+    <AssemblyName>PhoneBook β1.0</AssemblyName>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.15063.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>PhoneBook β1.0_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>E:\大三\通讯录\</AppxPackageDir>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>F0FC2E22F2B3BB40595C320E9A8AB99D70E63BF4</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AddFace.xaml.cs">
+      <DependentUpon>AddFace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppDatabase.cs" />
+    <Compile Include="DeleteData.xaml.cs">
+      <DependentUpon>DeleteData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Getcity.cs" />
+    <Compile Include="GetCitynum.cs" />
+    <Compile Include="GPSselect.cs" />
+    <Compile Include="HeFengWeather.cs" />
+    <Compile Include="ListviewSelect.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="MainFace.xaml.cs">
+      <DependentUpon>MainFace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationFace.xaml.cs">
+      <DependentUpon>NavigationFace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.xaml.cs">
+      <DependentUpon>NewUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCellCore .xaml.cs">
+      <DependentUpon>QCellCore .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReviseData .xaml.cs">
+      <DependentUpon>ReviseData .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Root.cs" />
+    <Compile Include="SQLiteOperation.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="Weather.cs" />
+    <Compile Include="WeatherHeFeng.xaml.cs">
+      <DependentUpon>WeatherHeFeng.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="PhoneBook β1.0_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\bandage.png" />
+    <Content Include="Assets\delete1.png" />
+    <Content Include="Assets\denglu.jpg" />
+    <Content Include="Assets\denglu2.jpg" />
+    <Content Include="Assets\denglu3.jpg" />
+    <Content Include="Assets\earth-globe.png" />
+    <Content Include="Assets\emo.png" />
+    <Content Include="Assets\fengmian.jpg" />
+    <Content Include="Assets\HF_Weather\100.png" />
+    <Content Include="Assets\HF_Weather\101.png" />
+    <Content Include="Assets\HF_Weather\102.png" />
+    <Content Include="Assets\HF_Weather\103.png" />
+    <Content Include="Assets\HF_Weather\104.png" />
+    <Content Include="Assets\HF_Weather\200.png" />
+    <Content Include="Assets\HF_Weather\201.png" />
+    <Content Include="Assets\HF_Weather\202.png" />
+    <Content Include="Assets\HF_Weather\203.png" />
+    <Content Include="Assets\HF_Weather\204.png" />
+    <Content Include="Assets\HF_Weather\205.png" />
+    <Content Include="Assets\HF_Weather\206.png" />
+    <Content Include="Assets\HF_Weather\207.png" />
+    <Content Include="Assets\HF_Weather\208.png" />
+    <Content Include="Assets\HF_Weather\209.png" />
+    <Content Include="Assets\HF_Weather\210.png" />
+    <Content Include="Assets\HF_Weather\211.png" />
+    <Content Include="Assets\HF_Weather\212.png" />
+    <Content Include="Assets\HF_Weather\300.png" />
+    <Content Include="Assets\HF_Weather\301.png" />
+    <Content Include="Assets\HF_Weather\302.png" />
+    <Content Include="Assets\HF_Weather\303.png" />
+    <Content Include="Assets\HF_Weather\304.png" />
+    <Content Include="Assets\HF_Weather\305.png" />
+    <Content Include="Assets\HF_Weather\306.png" />
+    <Content Include="Assets\HF_Weather\307.png" />
+    <Content Include="Assets\HF_Weather\308.png" />
+    <Content Include="Assets\HF_Weather\309.png" />
+    <Content Include="Assets\HF_Weather\310.png" />
+    <Content Include="Assets\HF_Weather\311.png" />
+    <Content Include="Assets\HF_Weather\312.png" />
+    <Content Include="Assets\HF_Weather\313.png" />
+    <Content Include="Assets\HF_Weather\400.png" />
+    <Content Include="Assets\HF_Weather\401.png" />
+    <Content Include="Assets\HF_Weather\402.png" />
+    <Content Include="Assets\HF_Weather\403.png" />
+    <Content Include="Assets\HF_Weather\404.png" />
+    <Content Include="Assets\HF_Weather\405.png" />
+    <Content Include="Assets\HF_Weather\406.png" />
+    <Content Include="Assets\HF_Weather\407.png" />
+    <Content Include="Assets\HF_Weather\500.png" />
+    <Content Include="Assets\HF_Weather\501.png" />
+    <Content Include="Assets\HF_Weather\502.png" />
+    <Content Include="Assets\HF_Weather\503.png" />
+    <Content Include="Assets\HF_Weather\504.png" />
+    <Content Include="Assets\HF_Weather\507.png" />
+    <Content Include="Assets\HF_Weather\508.png" />
+    <Content Include="Assets\HF_Weather\900.png" />
+    <Content Include="Assets\HF_Weather\901.png" />
+    <Content Include="Assets\HF_Weather\999.png" />
+    <Content Include="Assets\iphone-5c-blue.png" />
+    <Content Include="Assets\pikaqiu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\tick_weather\00.png" />
+    <Content Include="Assets\tick_weather\01.png" />
+    <Content Include="Assets\tick_weather\02.png" />
+    <Content Include="Assets\tick_weather\03.png" />
+    <Content Include="Assets\tick_weather\04.png" />
+    <Content Include="Assets\tick_weather\06.png" />
+    <Content Include="Assets\tick_weather\07.png" />
+    <Content Include="Assets\tick_weather\08.png" />
+    <Content Include="Assets\tick_weather\09.png" />
+    <Content Include="Assets\tick_weather\10.png" />
+    <Content Include="Assets\tick_weather\13.png" />
+    <Content Include="Assets\tick_weather\14.png" />
+    <Content Include="Assets\tick_weather\15.png" />
+    <Content Include="Assets\tick_weather\16.png" />
+    <Content Include="Assets\tick_weather\18.png" />
+    <Content Include="Assets\tick_weather\20.png" />
+    <Content Include="Assets\tick_weather\cloudy1.png" />
+    <Content Include="Assets\tick_weather\cloudy1_night.png" />
+    <Content Include="Assets\tick_weather\cloudy2_night.png" />
+    <Content Include="Assets\tick_weather\cloudy3.png" />
+    <Content Include="Assets\tick_weather\cloudy3_night.png" />
+    <Content Include="Assets\tick_weather\cloudy4.png" />
+    <Content Include="Assets\tick_weather\cloudy4_night.png" />
+    <Content Include="Assets\tick_weather\cloudy5.png" />
+    <Content Include="Assets\tick_weather\fog_night.png" />
+    <Content Include="Assets\tick_weather\hail.png" />
+    <Content Include="Assets\tick_weather\mist.png" />
+    <Content Include="Assets\tick_weather\mist_night.png" />
+    <Content Include="Assets\tick_weather\shower1_night.png" />
+    <Content Include="Assets\tick_weather\shower2.png" />
+    <Content Include="Assets\tick_weather\shower2_night.png" />
+    <Content Include="Assets\tick_weather\snow1_night.png" />
+    <Content Include="Assets\tick_weather\snow2_night.png" />
+    <Content Include="Assets\tick_weather\snow3.png" />
+    <Content Include="Assets\tick_weather\snow3_night.png" />
+    <Content Include="Assets\tick_weather\sunny_night.png" />
+    <Content Include="Assets\tick_weather\tstorm1_night.png" />
+    <Content Include="Assets\tick_weather\tstorm2.png" />
+    <Content Include="Assets\tick_weather\tstorm2_night.png" />
+    <Content Include="Assets\tick_weather\tstorm3.png" />
+    <Content Include="Assets\weather %282%29.jpg" />
+    <Content Include="Assets\weather.jpg" />
+    <Content Include="Assets\weather.png" />
+    <Content Include="Assets\下雨.jpg" />
+    <Content Include="Assets\下雪.jpg" />
+    <Content Include="Assets\修改.png" />
+    <Content Include="Assets\其他.jpg" />
+    <Content Include="Assets\图层.png" />
+    <Content Include="Assets\图层2.png" />
+    <Content Include="Assets\多云.jpg" />
+    <Content Include="Assets\定位.gif" />
+    <Content Include="Assets\导航.png" />
+    <Content Include="Assets\封面.jpg" />
+    <Content Include="Assets\晴.jpg" />
+    <Content Include="Assets\晴间多云.jpg" />
+    <Content Include="Assets\添加.jpg" />
+    <Content Include="Assets\添加1.jpg" />
+    <Content Include="Assets\登陆.jpg" />
+    <Content Include="Javascript\ball.png" />
+    <Content Include="Javascript\datouwang.css" />
+    <Content Include="Javascript\datouwang.js" />
+    <Content Include="Javascript\head.png" />
+    <Content Include="Javascript\jquery-1.8.3.min.js" />
+    <Content Include="Javascript\MouseMove.html" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AddFace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainFace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NavigationFace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QCellCore .xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReviseData .xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeatherHeFeng.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="SQLite.Net-PCL">
+      <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="XamlAnimatedGif">
+      <Version>1.1.10</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.26.0">
+      <Name>SQLite for Universal Windows Platform %28SQLite.UWP.2015, Version=3.26.0%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

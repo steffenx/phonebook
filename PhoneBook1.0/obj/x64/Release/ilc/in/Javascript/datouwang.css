@@ -1,0 +1,22 @@
+.eye_wrapper {
+    width: 131px;
+    height: 155px;
+    margin: -28px 0px 0px 170px;
+    position: relative;
+}
+
+    .eye_wrapper .head {
+        z-index: 1;
+    }
+
+    .eye_wrapper .eye-left {
+        position: absolute;
+        top: 72px;
+        left: 20px
+    }
+
+    .eye_wrapper .eye-right {
+        position: absolute;
+        top: 70px;
+        left: 86px
+    }

@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="PhoneBook_β1._0.AddFace"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PhoneBook_β1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="100">
+            <TextBlock Text="添加"></TextBlock>
+            <TextBox x:ConnectionId='1' Header="名字"
+                     x:Name="txtAddName"></TextBox>
+            <TextBox x:ConnectionId='2' Header="电话"
+                     x:Name="txtAddnum"></TextBox>
+            <TextBox x:ConnectionId='3' Header="性别"
+                     x:Name="txtAddsex"></TextBox>
+            <TextBox x:ConnectionId='4' Header="地区"
+                     x:Name="txtAddcity"></TextBox>
+            <TextBox x:ConnectionId='5' Header="邮件"
+                     x:Name="txtAddmail"></TextBox>
+            
+            <StackPanel x:ConnectionId='6'  AllowDrop="True"                                                        Height="100">
+                <Ellipse x:ConnectionId='9' Name="ellipseWithImageBrush" Width="90" Height="90">
+                    <Ellipse.Fill >
+                        <ImageBrush></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </StackPanel>
+            <TextBox x:ConnectionId='7' x:Name="textbox" FontSize="18" VerticalAlignment="Bottom"/>
+            <Button x:ConnectionId='8' Content="添加进数据库"
+                    HorizontalAlignment="Center"
+                                        ></Button>
+            
+        </StackPanel>
+    </Grid>
+</Page>
+

@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"E:\大三\phonebook\PhoneBook β1.0\obj\x86\Debug\filemap.scale-400.pri"			"resources.pri"
+"E:\大三\phonebook\PhoneBook β1.0\obj\x86\Debug\PackageLayout\Assets\Square150x150Logo.scale-400.png"			"Assets\Square150x150Logo.scale-400.png"

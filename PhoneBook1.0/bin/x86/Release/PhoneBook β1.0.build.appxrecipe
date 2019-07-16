@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-4KEJTVBF</Machine>
+    <WindowsUser>steffen.xuan</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>8d66cb04-638e-4304-bd28-642bad6d4d06</PackageIdentityName>
+    <PackageIdentityPublisher>CN=steffen.xuan</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\bandage.png">
+      <PackagePath>Assets\bandage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\delete1.png">
+      <PackagePath>Assets\delete1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\denglu.jpg">
+      <PackagePath>Assets\denglu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\denglu2.jpg">
+      <PackagePath>Assets\denglu2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\denglu3.jpg">
+      <PackagePath>Assets\denglu3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\earth-globe.png">
+      <PackagePath>Assets\earth-globe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\emo.png">
+      <PackagePath>Assets\emo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\fengmian.jpg">
+      <PackagePath>Assets\fengmian.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\100.png">
+      <PackagePath>Assets\HF_Weather\100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\101.png">
+      <PackagePath>Assets\HF_Weather\101.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\102.png">
+      <PackagePath>Assets\HF_Weather\102.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\103.png">
+      <PackagePath>Assets\HF_Weather\103.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\104.png">
+      <PackagePath>Assets\HF_Weather\104.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\200.png">
+      <PackagePath>Assets\HF_Weather\200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\201.png">
+      <PackagePath>Assets\HF_Weather\201.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\202.png">
+      <PackagePath>Assets\HF_Weather\202.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\203.png">
+      <PackagePath>Assets\HF_Weather\203.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\204.png">
+      <PackagePath>Assets\HF_Weather\204.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\205.png">
+      <PackagePath>Assets\HF_Weather\205.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\206.png">
+      <PackagePath>Assets\HF_Weather\206.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\207.png">
+      <PackagePath>Assets\HF_Weather\207.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\208.png">
+      <PackagePath>Assets\HF_Weather\208.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\209.png">
+      <PackagePath>Assets\HF_Weather\209.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\210.png">
+      <PackagePath>Assets\HF_Weather\210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\211.png">
+      <PackagePath>Assets\HF_Weather\211.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\212.png">
+      <PackagePath>Assets\HF_Weather\212.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\300.png">
+      <PackagePath>Assets\HF_Weather\300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\301.png">
+      <PackagePath>Assets\HF_Weather\301.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\302.png">
+      <PackagePath>Assets\HF_Weather\302.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\303.png">
+      <PackagePath>Assets\HF_Weather\303.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\304.png">
+      <PackagePath>Assets\HF_Weather\304.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\305.png">
+      <PackagePath>Assets\HF_Weather\305.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\306.png">
+      <PackagePath>Assets\HF_Weather\306.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\307.png">
+      <PackagePath>Assets\HF_Weather\307.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\308.png">
+      <PackagePath>Assets\HF_Weather\308.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\309.png">
+      <PackagePath>Assets\HF_Weather\309.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\310.png">
+      <PackagePath>Assets\HF_Weather\310.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\311.png">
+      <PackagePath>Assets\HF_Weather\311.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\312.png">
+      <PackagePath>Assets\HF_Weather\312.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\313.png">
+      <PackagePath>Assets\HF_Weather\313.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\400.png">
+      <PackagePath>Assets\HF_Weather\400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\401.png">
+      <PackagePath>Assets\HF_Weather\401.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\402.png">
+      <PackagePath>Assets\HF_Weather\402.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\403.png">
+      <PackagePath>Assets\HF_Weather\403.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\404.png">
+      <PackagePath>Assets\HF_Weather\404.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\405.png">
+      <PackagePath>Assets\HF_Weather\405.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\406.png">
+      <PackagePath>Assets\HF_Weather\406.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\407.png">
+      <PackagePath>Assets\HF_Weather\407.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\500.png">
+      <PackagePath>Assets\HF_Weather\500.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\501.png">
+      <PackagePath>Assets\HF_Weather\501.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\502.png">
+      <PackagePath>Assets\HF_Weather\502.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\503.png">
+      <PackagePath>Assets\HF_Weather\503.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\504.png">
+      <PackagePath>Assets\HF_Weather\504.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\507.png">
+      <PackagePath>Assets\HF_Weather\507.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\508.png">
+      <PackagePath>Assets\HF_Weather\508.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\900.png">
+      <PackagePath>Assets\HF_Weather\900.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\901.png">
+      <PackagePath>Assets\HF_Weather\901.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\HF_Weather\999.png">
+      <PackagePath>Assets\HF_Weather\999.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\iphone-5c-blue.png">
+      <PackagePath>Assets\iphone-5c-blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\pikaqiu.png">
+      <PackagePath>Assets\pikaqiu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\00.png">
+      <PackagePath>Assets\tick_weather\00.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\01.png">
+      <PackagePath>Assets\tick_weather\01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\02.png">
+      <PackagePath>Assets\tick_weather\02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\03.png">
+      <PackagePath>Assets\tick_weather\03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\04.png">
+      <PackagePath>Assets\tick_weather\04.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\06.png">
+      <PackagePath>Assets\tick_weather\06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\07.png">
+      <PackagePath>Assets\tick_weather\07.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\08.png">
+      <PackagePath>Assets\tick_weather\08.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\09.png">
+      <PackagePath>Assets\tick_weather\09.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\10.png">
+      <PackagePath>Assets\tick_weather\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\13.png">
+      <PackagePath>Assets\tick_weather\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\14.png">
+      <PackagePath>Assets\tick_weather\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\15.png">
+      <PackagePath>Assets\tick_weather\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\16.png">
+      <PackagePath>Assets\tick_weather\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\18.png">
+      <PackagePath>Assets\tick_weather\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\20.png">
+      <PackagePath>Assets\tick_weather\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy1.png">
+      <PackagePath>Assets\tick_weather\cloudy1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy1_night.png">
+      <PackagePath>Assets\tick_weather\cloudy1_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy2_night.png">
+      <PackagePath>Assets\tick_weather\cloudy2_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy3.png">
+      <PackagePath>Assets\tick_weather\cloudy3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy3_night.png">
+      <PackagePath>Assets\tick_weather\cloudy3_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy4.png">
+      <PackagePath>Assets\tick_weather\cloudy4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy4_night.png">
+      <PackagePath>Assets\tick_weather\cloudy4_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\cloudy5.png">
+      <PackagePath>Assets\tick_weather\cloudy5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\fog_night.png">
+      <PackagePath>Assets\tick_weather\fog_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\hail.png">
+      <PackagePath>Assets\tick_weather\hail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\mist.png">
+      <PackagePath>Assets\tick_weather\mist.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\mist_night.png">
+      <PackagePath>Assets\tick_weather\mist_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\shower1_night.png">
+      <PackagePath>Assets\tick_weather\shower1_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\shower2.png">
+      <PackagePath>Assets\tick_weather\shower2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\shower2_night.png">
+      <PackagePath>Assets\tick_weather\shower2_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\snow1_night.png">
+      <PackagePath>Assets\tick_weather\snow1_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\snow2_night.png">
+      <PackagePath>Assets\tick_weather\snow2_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\snow3.png">
+      <PackagePath>Assets\tick_weather\snow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\snow3_night.png">
+      <PackagePath>Assets\tick_weather\snow3_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\sunny_night.png">
+      <PackagePath>Assets\tick_weather\sunny_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\tstorm1_night.png">
+      <PackagePath>Assets\tick_weather\tstorm1_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\tstorm2.png">
+      <PackagePath>Assets\tick_weather\tstorm2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\tstorm2_night.png">
+      <PackagePath>Assets\tick_weather\tstorm2_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\tick_weather\tstorm3.png">
+      <PackagePath>Assets\tick_weather\tstorm3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\weather %282%29.jpg">
+      <PackagePath>Assets\weather %282%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\weather.jpg">
+      <PackagePath>Assets\weather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\weather.png">
+      <PackagePath>Assets\weather.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\下雨.jpg">
+      <PackagePath>Assets\下雨.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\下雪.jpg">
+      <PackagePath>Assets\下雪.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\修改.png">
+      <PackagePath>Assets\修改.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\其他.jpg">
+      <PackagePath>Assets\其他.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\图层.png">
+      <PackagePath>Assets\图层.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\图层2.png">
+      <PackagePath>Assets\图层2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\多云.jpg">
+      <PackagePath>Assets\多云.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\定位.gif">
+      <PackagePath>Assets\定位.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\导航.png">
+      <PackagePath>Assets\导航.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\封面.jpg">
+      <PackagePath>Assets\封面.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\晴.jpg">
+      <PackagePath>Assets\晴.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\晴间多云.jpg">
+      <PackagePath>Assets\晴间多云.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\添加.jpg">
+      <PackagePath>Assets\添加.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\添加1.jpg">
+      <PackagePath>Assets\添加1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Assets\登陆.jpg">
+      <PackagePath>Assets\登陆.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\ball.png">
+      <PackagePath>Javascript\ball.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\datouwang.css">
+      <PackagePath>Javascript\datouwang.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\datouwang.js">
+      <PackagePath>Javascript\datouwang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\head.png">
+      <PackagePath>Javascript\head.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\jquery-1.8.3.min.js">
+      <PackagePath>Javascript\jquery-1.8.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\Javascript\MouseMove.html">
+      <PackagePath>Javascript\MouseMove.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\PhoneBook _1.0.dll">
+      <PackagePath>PhoneBook _1.0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\PhoneBook _1.0.pdb">
+      <PackagePath>PhoneBook _1.0.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\PhoneBook β1.0.exe">
+      <PackagePath>PhoneBook β1.0.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steffen.xuan\source\repos\phonebook\PhoneBook β1.0\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\steffen.xuan\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

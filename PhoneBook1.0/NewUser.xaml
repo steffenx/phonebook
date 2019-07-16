@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="PhoneBook_β1._0.NewUser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PhoneBook_β1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="50" Grid.Column="1">
+            <TextBlock Text="欢迎注册PhoneBook" HorizontalAlignment="Center" FontSize="36"></TextBlock>
+            <TextBox Header="用户名："
+                     Margin="30"
+                     x:Name="txtAdduser" ></TextBox>
+            <TextBox Header="密码："
+                     Margin="30"
+                     x:Name="txtAddmima"></TextBox>
+            <Button Content="立即注册"
+                    Margin="10"
+                    HorizontalAlignment="Center"
+                    Click="BtnAdd_Click" Opacity="0.5"></Button>
+        </StackPanel>
+        
+        <StackPanel>
+            <Button Name="back" FontFamily="Segoe MDL2 Assets" FontSize="26" Content=" &#xE0C4;" Click="back_Click"></Button>
+        </StackPanel>
+        
+        <StackPanel VerticalAlignment="Center">
+            
+            <Ellipse x:Name="ellipse" Width="250" Height="250" RenderTransformOrigin="0.5,0.5" >
+                <Ellipse.Resources>
+                    <!--Storyboard 一个动画容器-->
+                    <Storyboard x:Name="EllStoryboard" RepeatBehavior="Forever">
+                        <DoubleAnimation Duration="0:0:20" To="360" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="ellipse" d:IsOptimized="True"/>
+                    </Storyboard>
+                </Ellipse.Resources>
+                <Ellipse.RenderTransform>
+                    <CompositeTransform/>
+                </Ellipse.RenderTransform>
+
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="picture" ImageSource="Assets\封面.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
+        </StackPanel>
+    </Grid>
+</Page>

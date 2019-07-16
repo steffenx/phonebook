@@ -1,0 +1,2 @@
+MainPackage=E:\大三\phonebook\PhoneBook β1.0\bin\x86\Debug\PhoneBook β1.0_1.0.7.0_x86_Debug.appx
+SymbolPackage=E:\大三\通讯录\PhoneBook β1.0_1.0.7.0_Debug_Test\PhoneBook β1.0_1.0.7.0_x86_Debug.appxsym

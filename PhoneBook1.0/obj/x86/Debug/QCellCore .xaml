@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="PhoneBook_β1._0.QCellCore"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PhoneBook_β1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:a="using:XamlAnimatedGif"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Image a:AnimationBehavior.SourceUri="Assets/定位.gif"></Image>
+        </Grid>
+        <Grid Grid.Row="1" Height="355">
+            <Image Width="45" Height="45" VerticalAlignment="Top" Source="Assets/iphone-5c-blue.png" Margin="-350,5,0,0"></Image>
+            <AutoSuggestBox x:ConnectionId='1' Name="selectbox" RelativePanel.AlignRightWithPanel="True" PlaceholderText="Select Phone"  Width="260"  QueryIcon="Find" Height="35" VerticalAlignment="Top" Margin="0,10,0,0" Grid.Row="1" FontSize="18"                                                                                        >
+
+            </AutoSuggestBox>
+
+            <Grid Margin="70">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid  BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">手机号码所属省份</TextBlock>
+                    <TextBlock x:ConnectionId='7' Grid.Column="1"  Name="province" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+
+                <Grid Grid.Row="1" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">手机号码所属城市</TextBlock>
+                    <TextBlock x:ConnectionId='6' Grid.Column="1"  Name="city" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+
+                <Grid Grid.Row="2" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">手机号码运营商</TextBlock>
+                    <TextBlock x:ConnectionId='5' Grid.Column="1"  Name="Operator" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+
+                <Grid Grid.Row="3" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">手机号码所属城市区号</TextBlock>
+                    <TextBlock x:ConnectionId='4' Grid.Column="1"  Name="areaCode" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+                
+                <Grid Grid.Row="4" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">手机号码所属城市邮编</TextBlock>
+                    <TextBlock x:ConnectionId='3' Grid.Column="1"  Name="zip" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+
+                <Grid Grid.Row="5" BorderThickness="0,0,0,1" BorderBrush="#EEEEEE">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">查询客户端IP</TextBlock>
+                    <TextBlock x:ConnectionId='2' Grid.Column="1"  Name="ip" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+            </Grid>
+        </Grid>
+
+
+    </Grid>
+</Page>
+
